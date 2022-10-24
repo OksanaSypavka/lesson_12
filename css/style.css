@@ -1,0 +1,124 @@
+body {
+   font-family: "Lato", sans-serif;
+
+
+}
+
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+   position: relative;
+}
+
+.main__container {
+   background-color: rgb(7, 196, 234);
+}
+
+.section__sun {
+   width: 200px;
+   position: absolute;
+   top: 20px;
+   left: 50px;
+
+}
+
+.section__bird {
+   width: 200px;
+   position: absolute;
+   top: 80px;
+   right: 80px;
+
+}
+
+.section__sun:hover {
+   transform: scale(1.2);
+}
+
+.section__bird:hover {
+   transform: translate(40px, 80px);
+}
+
+
+.page__container {
+   width: 700px;
+   background-color: yellow;
+   margin: 0 auto;
+   border-radius: 10px;
+
+}
+
+.page__block {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(88, 227, 19);
+   margin: 0 auto;
+   border-radius: 15px;
+   border: 1px rgb(109, 62, 101) solid;
+   margin-bottom: 40px;
+
+
+}
+
+.page__item {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(251, 10, 207);
+   margin: 0 auto;
+   margin-bottom: 40px;
+   border-radius: 15px;
+   border: 1px rgb(31, 57, 58) solid;
+   padding-top: 50%;
+
+}
+
+
+
+.page__item p {
+   text-align: center;
+   font-weight: 700;
+   font-style: italic;
+}
+
+.translate:hover {
+   transform: translate(30px, 30px);
+}
+
+.translatex:hover {
+   transform: translateX(30px);
+}
+
+.translatey:hover {
+   transform: translateY(30px);
+}
+
+.scale:hover {
+   transform: scale(1.2);
+}
+
+.scaley:hover {
+   transform: scaleY(0.5);
+}
+
+.rotate:hover {
+   transform: rotate(90deg);
+}
+
+.rotatex:hover {
+   transform: rotateX(30deg);
+}
+
+.rotatey:hover {
+   transform: rotateY(30deg);
+}
+
+.skewx:hover {
+   transform: skewX(30deg);
+}
+
+.skewy:hover {
+   transform: skewY(30deg);
+}
+
+.scale--translate:hover {
+   transform: scale(0.9) translate(10px, 10px) rotate(80deg);
+}
